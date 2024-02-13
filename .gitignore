@@ -146,4 +146,30 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+/.dockerignore
+/.env
+/.git
+/.gitignore
+/.project
+/.settings
+/.toolstarget
+/.vs
+/.vscode
+/.idea
+/*.*proj.user
+/*.dbmdl
+/*.jfm
+/azds.yaml
+/bin
+/charts
+/docker-compose*
+/Dockerfile*
+/node_modules
+/npm-debug.log
+/obj
+/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+README.md
+
 # End of https://www.gitignore.io/api/unity,windows,jetbrains+all
