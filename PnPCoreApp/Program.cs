@@ -8,7 +8,9 @@ public static class Program
         IHost host = HostContextBuilder.New(args);
         using HostContext context = host.Build();
         
+        context.PnPService.InitContext();
         await context.PnPService.GetListsCountAsync();
+        await context.PnPService.GetListAsync("Test Root List");
 
         Console.ReadKey();
     }
